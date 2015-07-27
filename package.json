@@ -1,0 +1,36 @@
+{
+  "name": "@zertz/pad",
+  "version": "1.0.0",
+  "description": "Prepend strings with a specified character up to the specified length",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zertz/pad.git"
+  },
+  "keywords": [
+    "pad",
+    "string",
+    "prepend"
+  ],
+  "author": "Pier-Luc Gendreau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zertz/pad/issues"
+  },
+  "homepage": "https://github.com/Zertz/pad#readme",
+  "dependencies": {
+    "lodash": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.0",
+    "standard": "^4.0.0"
+  },
+  "standard": {
+    "globals": ["describe", "it"]
+  }
+}
